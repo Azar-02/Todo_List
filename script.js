@@ -6,7 +6,7 @@ const addTaskBtn = document.getElementById("addTask");
 const filterBtn = document.querySelector(".filter-options button");
 
 addTaskBtn.addEventListener("click", addTask);
-taskInput.addEventListener("keypress", (e) {
+taskInput.addEventListener("keypress", (e) => {
     if(e.key === "Enter") addTask();
 });
 
